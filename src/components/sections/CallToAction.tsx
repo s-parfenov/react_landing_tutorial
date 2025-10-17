@@ -21,7 +21,8 @@ export const CTA = () => {
                             fingertips.
                         </Paragraph>
                         <div className="mx-auto max-w-max sm:max-w-xl pt-10 dark:text-white">
-                            <Button>
+                            <Button className="transform transition-transform duration-300
+                                                        hover:scale-105 text-white">
                                 Get in touch
                             </Button>
                         </div>
