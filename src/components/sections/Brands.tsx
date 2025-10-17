@@ -21,7 +21,7 @@ export const Brands = () => {
                 <div className="flex justify-center gap-4">
                     {logos.map((logo, key) => (
                         <div key={key} className="p-4 sm:p-5 rounded-xl bg-body no-border group">
-                            <img src={`/src/assets/logos/${logo}.png`} width="100" height="60" alt={logo} 
+                            <img src={`/logos/${logo}.png`} width="100" height="60" alt={logo} 
                                     className="h-7 sm:h-10 w-auto ease-liner duration-300 grayscale 
                                     group-hover:!grayscale-0 group-hover:scale-105" />
                         </div>
